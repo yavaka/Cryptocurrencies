@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cryptocurrencies</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to Bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <!-- Custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JS Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        
+        <!-- navbar logo -->
+        <a href="#"><img src="img/logo.png"/></a>
+        
+        <!-- navbar toggler icon  -->
+        <button class="navbar-toggler" type="button" 
+                data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navigation buttons-->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Set the button home to active because this is Home page-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Coins/Index.html">Coins</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ContactMe/Index.html">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Image slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/crypto_wallpaper_3.jpeg">
+        </div>
+        <div class="carousel-item">
+            <img src="img/crypto_wallpaper_2.jpg">
+        </div>
+        <div class="carousel-item">
+            <img src="img/crypto_wallpaper.jpeg">
+        </div>
+    
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#slides" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#slides" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+
+<!-- Welcome section -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+
+        <!-- Title -->
+        <div class="col-12">
+            <h1 class="display-4">Everything about cryptocurrencies.</h1>
+        </div>
+        <hr style="height:10px">
+  
+        <!-- Description -->
+        <div class="col-12">
+            <p class="lead">Welcome to Cryptocurrencies website. Here you can find information about
+                 their history, how to purchase, where to store and many more.
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<!-- Two Column Section -->
+<!-- History of Cryptocurrency -->
+<div class="container padding">
+    <div class="row padding"> 
+        <div class="col-lg-6"> 
+            <h2>History of Cryptocurrency</h2>
+            <p>A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange 
+                that uses strong cryptography to secure financial transactions, control the creation of additional units,
+                 and verify the transfer of assets. Cryptocurrencies use decentralized control as opposed to centralized digital currency 
+                 and central banking systems.</p>
+            <p>The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database...</p>
+            <br>
+            <!-- Learn more button-->
+            <a href="About.html" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/blockchain.jpg" class="img-fluid">
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+
+<!-- Popular Coins -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Popular Coins</h1>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+ <!-- Cards -->
+<div class="container-fluid padding">
+    <div class="row padding">
+
+        <!-- History of ETH-->
+        <div class="col-md-3">  
+            <div class="card">  
+                <div class="content-responsive">
+                    <img class="card-img-top" src="img/ethereum.png">
+                </div>
+                <div class="card-body"> 
+                    <h4 class="card-title">Ethereum</h4>
+                    <p class="card-text">Ethereum was initially described in a white paper by Vitalik Buterin, a programmer and co-founder of Bitcoin Magazine,
+                         in late 2013 with a goal of building decentralized applications.</p>
+                    <a href="Coins/Ethereum.html" class="btn btn-outline-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+         <!-- History of XMR-->
+         <div class="col-md-3">  
+            <div class="card">  
+                <div class="content-responsive">
+                    <img class="card-img-top" src="img/monero.png">                    
+                </div>
+                <div class="card-body"> 
+                    <h4 class="card-title">Monero</h4>
+                    <p class="card-text">Seven developers who created Monero, five of them decided that they would keep their identities secret.    
+                         Only two of these Monero developers are known about – Riccardo Spagni and David Latapie.</p>
+                    <a href="Coins/Monero.html" class="btn btn-outline-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <!-- History of BTC-->
+         <div class="col-md-3">  
+             <div class="card">  
+                <div class="content-responsive">
+                    <img class="card-img-top" src="img/bitcoin_2.png">
+                </div>
+                <div class="card-body"> 
+                    <h4 class="card-title">Bitcoin</h4>
+                    <p class="card-text">Bitcoin(₿) is a decentralized digital currency without a central bank or
+                        single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.</p>
+                    <a href="Coins/Bitcoin.html" class="btn btn-outline-secondary">Learn More</a>
+                </div>
+             </div>
+         </div>
+         <br>
+         
+        <!-- History of ZEC-->
+        <div class="col-md-3">  
+            <div class="card">  
+                <div class="content-responsive">
+                    <img class="card-img-top" src="img/zcash.png">
+                </div>
+                <div class="card-body"> 
+                    <h4 class="card-title">Zcash</h4>
+                    <p class="card-text">Zcash, introduced formally in late October 2016, has its origins in a 2013 start-up called Zerocoin led by several
+                         key personnel: Matthew Green, Christina Garman, Ian Miers and Aviel Rubin.</p>
+                    <a href="Coins/Zcash.html" class="btn btn-outline-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<footer>
+
+<div class="container-fluid padding">   
+    <div class="row text-center">   
+        <div class="col-md-6">   
+            <hr class="light">
+            <p>21905889</p>
+            <p>Yavor Yankov</p>
+            <p>yavakasprojects@gmail.com</p>
+            <p>Computing Essentials Course Work</p>
+        </div>
+        <div class="col-md-6">   
+            <hr class="light">
+            <p><a href="Coins/Index.html">Coins</a></p>
+            <p><a href="About.html">About</a></p>
+            <p><a href="ContactMe/Index.html">Contact me</a></p>
+        </div>
+        <div class="col-12">  
+            <hr class="light">
+            <h5>&copy; cryptocurrencies.co.uk</h5>
+        </div>
+    </div>
+</div>
+    
+</footer>
+</html>
