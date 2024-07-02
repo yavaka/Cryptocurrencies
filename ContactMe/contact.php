@@ -75,5 +75,5 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 // else just display the message
 else {
 
-    header( 'Location: ../Index.html' ) ;
+    header( 'Location: ../index.html' ) ;
 }
